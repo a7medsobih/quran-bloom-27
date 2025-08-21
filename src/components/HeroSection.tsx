@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight, Users, BookOpen, Award } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 import mosqueLearning from "@/assets/mosque-learning.jpg";
-import quranOpen from "@/assets/quran-open.jpg";
+import quranOpen from "@/assets/pexels.jpeg";
 
 const HeroSection = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -89,7 +89,7 @@ const HeroSection = () => {
                     <Button 
                       size="lg" 
                       variant="outline" 
-                      className="text-lg px-8 py-4 border-white text-white hover:bg-white hover:text-primary"
+                      className="text-lg px-8 py-4 border-white text-black hover:bg-white hover:text-primary"
                     >
                       {slide.secondaryButton}
                     </Button>
